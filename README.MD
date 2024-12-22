@@ -1,4 +1,4 @@
-# Django CRUD com Autenticação de Usuários
+# Livraria com Django
 
 Este projeto é uma aplicação simples em Django que implementa um sistema de CRUD para livros com autenticação de usuários. O projeto permite que os usuários façam login, logout, cadastrem novos usuários, adicionem, editem e excluam livros, além de explorar os recursos disponíveis.
 
