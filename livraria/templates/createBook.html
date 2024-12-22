@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="col-md-6 offset-md-3">
+    <h1>Cadastro de livros</h1>
+    <hr>
+    <form method="POST" action="{% url 'createBook' %}">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit" class="btn btn-success">Adicionar livro</button>
+    </form>
+</div>
+{% endblock %}   
